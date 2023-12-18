@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: hospital-oop
+  datasource:
+    url: jdbc:mysql://localhost:3306/hospital_oop?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: 985263
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
