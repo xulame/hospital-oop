@@ -1,6 +1,10 @@
 package com.cbu.hospital_oop.model;
 
+import java.util.Scanner;
 public class Doctor extends User{
+
+    Scanner imput = new Scanner(System.in);
+
     public void uye_ol()
     {
 
@@ -11,13 +15,9 @@ public class Doctor extends User{
 
 
     }
-   public void calisma saatleri_belirle()
-    {
 
 
-    }
-
-   public void yeni_hasta_kaydı()
+   public void yeni_hasta_kaydi()
    {
 
    }
@@ -38,6 +38,10 @@ public class Doctor extends User{
 
    }
 
+   public void calisma_izni_talebi()
+   {
+
+   }
 
 
    public void cikis_yap()
